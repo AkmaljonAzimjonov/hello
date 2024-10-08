@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: 900;
+    margin-bottom: 5px;
+
+}
+
+.light {
+    color: #969BAB !important;
+    font-size: 14px !important;
+}
+
+/* nav */
+
+nav {
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    width: 100px;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #18191F;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+nav .links {
+    display: flex;
+    align-items: center;
+}
+
+nav .buttons a {
+    cursor: pointer;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+/* hero */
+
+.hero {
+    background-image: url(images/hero-back.png);
+    background-size: cover;
+}
+
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero .texts > * {
+    margin-bottom: 30px;
+}
+
+.hero img {
+    width: 350px;
+}
+
+.hero h1 {
+    color: #18191F;
+    font-size: 72px;
+    font-weight: 800;
+}
+
+.hero button {
+    padding: 16px 41px;
+    color: #FFFFFF;
+    font-size: 20px;
+    transition: all ease 0.3s;
+    font-weight: 700;
+    background-color: #8C30F5;
+    border: 2px solid #8C30F5;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: transparent;
+    color: #8C30F5;
+}
+
+/* investors */
+
+.investors {
+    margin: 50px 10px;
+    border-top: 1px solid rgb(195, 195, 195);
+    border-bottom: 1px solid rgb(195, 195, 195);
+}
+
+.investors .container {
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.investors img {
+    width: 100px;
+}
+
+/* features */
+
+.features .titles {
+    margin: 30px 0;
+    color: #18191F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+.features .titles p {
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 530px;
+}
+
+.features .wrapper {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.features .grid-boxes {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-row-gap: 64px;
+    grid-template-columns: repeat(3, 350px);
+}
+
+.features .box {
+    text-align: center;
+}
+
+.features .box img{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 24px;
+    object-fit: contain;
+}
+
+.features h3 {
+    color: #18191F;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.features p{
+    color: #18191F;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+    background-color: #D5FAFC;
+}
+
+.reviews .first {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.reviews .second .card {
+    margin-bottom: 30px;
+}
+
+.reviews .second .card:nth-child(1) {
+    width: 500px;
+}
+
+.reviews h2 {
+    color: #18191F;
+    font-size: 48px;
+    font-weight: 800;
+    margin-right: 50px;
+    margin-top: -100px;
+}
+
+.reviews h2::after {
+    content: "Get inspired by these stories.";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.reviews .card {
+    width: 350px;
+    padding: 40px;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 20px 0px #29292A12;
+}
+
+.reviews .card p{
+    font-size: 18px;
+    color: #18191F;
+}
+
+.reviews .card > *, .reviews .card .texts > * {
+    margin-bottom: 20px;
+}
+
+.reviews .card img {
+    width: 140px;
+}
